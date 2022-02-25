@@ -24,21 +24,12 @@
 package fr.cnrs.mri.tests.ij.labelling;
 
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-
 import fr.cnrs.mri.ij.labelling.NeuriteLabellingTool;
 import ij.ImagePlus;
 import ij.gui.NewImage;
-
-/**
- *
- *
- * @author baecker
- * @version Feb 24, 2022
- */
 
 class NeuriteLabellingToolTest {
 	
@@ -96,5 +87,4 @@ class NeuriteLabellingToolTest {
 		assertEquals(2, resultImage.getProcessor().get(2, 3));
 		assertEquals(2, resultImage.getProcessor().get(3, 3));
 	}
-
 }
