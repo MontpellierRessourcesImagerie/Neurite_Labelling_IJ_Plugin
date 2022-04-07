@@ -1,6 +1,6 @@
 # Neurite_Labelling_IJ_Plugin
 
-An ImageJ-plugin to label neurites with the label of the closest soma with respect to the distance along the paths on the neurites.
+An ImageJ-plugin to label neurites with the label of the closest soma with respect to the distance along the paths on the neurites. The tool takes an image containing a labelled mask of somas and neurites. The somas should have individual labels, while the neurites must all be labelled  with the value 65535. It will set each neurite pixel to the label of the closest soma on any path along the neurites.
 
 ## Installation
 
