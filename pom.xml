@@ -5,6 +5,21 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Neurite_Labelling_IJ_Plugin</name>
 	<description>An ImageJ-plugin to label neurites with the label of the closest soma with respect to the distance along the paths on the neurites.</description>
+	<url>https://github.com/MontpellierRessourcesImagerie/Neurite_Labelling_IJ_Plugin</url>
+	<organization>
+            <name>Montpellier Ressources Imagerie</name>
+            <url>https://www.mri.cnrs.fr/</url>
+        </organization>
+        <scm>
+            <connection>scm:git:git://github.com/MontpellierRessourcesImagerie/Neurite_Labelling_IJ_Plugin</connection>
+            <developerConnection>scm:git:git@github.com:MontpellierRessourcesImagerie/Neurite_Labelling_IJ_Plugin</developerConnection>
+            <tag>HEAD</tag>
+            <url>https://github.com/MontpellierRessourcesImagerie/Neurite_Labelling_IJ_Plugin</url>
+        </scm>
+        <issueManagement>
+            <system>GitHub Issues</system>
+            <url>http://github.com/MontpellierRessourcesImagerie/Neurite_Labelling_IJ_Plugin/issues</url>
+        </issueManagement>
 	<properties>
 		<junit.jupiter.version>5.8.1</junit.jupiter.version>
 		<junit.platform.version>1.8.1</junit.platform.version>
